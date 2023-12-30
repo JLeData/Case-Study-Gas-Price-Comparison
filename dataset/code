@@ -1,0 +1,25 @@
+```{r setup2, include=TRUE}
+# Load scales package for formatting
+library(scales)
+
+# Create list of years and values for calculation
+data <- data.frame(
+  years = c(2000, 2005, 2010, 2015, 2020, 2023), 
+  national = c(1.48, 2.27, 2.78, 2.43, 2.17, 3.54),
+  west = c(1.63, 2.43, 3.03, 2.98, 2.82, 4.54)
+)
+
+# Calculate percentage difference
+data$percentage_difference <- abs(((data$west - data$national) / data$national) * 100)
+
+# Format percentage values
+data$percentage_difference <- percent(data$percentage_difference, scale = 1)
+
+# Format columns containing currency values
+data$west <- dollar_format()(data$west)
+data$national <- dollar_format()(data$national)
+
+# Print the formatted data frame
+knitr::kable(data)
+
+```
