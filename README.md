@@ -1,15 +1,11 @@
 # Case-Study-Gas-Price-Comparison
 This project serves as a case study to practice data analysis with Excel, data visualization with Tableau, and creation of .rmd file.
-# Overview
+#Overview
+##Curosity and Interest
+Recently, a friend visiting from out of state mentioned filling up their gas tank in Texas for $2.70, leaving me astonished considering the $5.00 to $6.00 average prices in my area. This interaction sparked my curiosity about gas prices over the years, especially when compared to other parts of the United States. Having lived in California my entire life, I’ve witnessed the rise in gas prices since I started driving in 2012. This curiosity led me to explore gas prices for a capstone project as I delve into data analytics and pursue my certificate in the field.
 
-## Curosity and Interest
+##Scope
+The project aims to analyze gas price trends and disparities across regions in the United States, including the Coast, Midwest, and East Coast. Additionally, the focus will be on comparing gas prices in California to the broader West Coast.
 
-My friend had recently visited out of state and rented his own car to meet our friend group where we live. He mentioned that he already misses pumping $2.70 for gas in Texas which had me baffled as the gas prices in my area are around $5.00 to $6.00 average. This interaction had me curious about gas prices in recent years and how it compared to other parts of the United States. Living in California my entire life, I have seen the rise in gas prices since 2012 when I had started driving myself and pumping gas. I decided to ask this question for myself and for the capstone project as I am learning more about data analytics and working on acquiring my certificate in it. 
-
-## Scope
-
-Analyze gas price trends and disparity between the regions in the United States over the years. These regions consist of the  Coast, Midwest, and East Coast. Further analysis between West Coast and California.
-
-## Objective
-
-Utilize historical gas price data to create visualizations and compare the U.S. average price to each of the regions in the U.S. using the periods between 2000 and 2023. Main focus on Regular grade gas and include information on California for further comparisons.
+##Objective
+Utilize historical gas price data to create visualizations and compare the U.S. average price to each region from 2000 to 2023. The primary focus will be on Regular-grade gas, and specific attention will be given to California for in-depth comparisons.
